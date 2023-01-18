@@ -8,9 +8,12 @@
         <title>Repeticao controlada por contador</title>
         <script type="text/javascript">
             <!--
-                for (var contador = 1; contador <= 7; ++contador){
-                    document.writeln("<p style = \"font-size:" + contador + "ex\" >XHTML font size " + contador + "ex</p>");
+                var soma = 0;
+
+                for (var numero = 2; numero <= 1000; numero += 2){
+                    soma += numero;
                 }
+                document.writeln("A soma de inteiros " + "de 2 a 100 é " + soma);
                 -->
         </script>
     </head>
